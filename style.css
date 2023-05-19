@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header {
+    background-image: url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(216, 46, 71);
+    padding: 10px 40px;
+    border: 2px solid transparent;
+    transition: 0.3s ease;
+}
+
+ul li a:hover {
+    background-color: rgb(214, 43, 71);
+    color: white;
+    transform: scale(1.1); /* Added a scale effect on hover */
+}
+
+ul li.active a {
+    background-color: rgb(210, 33, 92);
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.donatenow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    position: absolute;
+    top: 83%; /* Adjusted the top position to be lower */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Added translate property to center the button */
+}
+
+ul li.active a:hover {
+    background-color: rgb(214, 43, 71);
+    color: white;
+    transform: scale(1.1); /* Added a scale effect on hover */
+}
+
+.milaaplogo img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title h1 {
+    color: rgb(52, 177, 79);
+    font-size: 64px; /* Updated font size to 64px */
+    margin-bottom: 20px;
+}
+
+.button {
+    position: absolute;
+    top: 90%; /* Adjusted the top position to be lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    padding: 12px 40px;
+    top: 90%; /* Adjusted the top position to be lower */
+    left: 50%;
+    background-color: rgb(210, 33, 92);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; /* Updated font size to 18px */
+    border-radius: 30px;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(214, 43, 71);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Added a subtle box shadow on hover */
+}
